@@ -15,9 +15,7 @@
 - 🧮 **Amortisationsberechnung**
   - Inkl. Förderungen, Strompreissteigerung, CO₂‑Ersparnis
 - 💻 **Benutzerfreundliche GUI**
-  - Qt‑basierte Oberfläche mit Formularen, Kartenansicht und Reiternavigation
-- 📦 **Offline-Nutzung möglich**
-  - Keine permanente Internetverbindung erforderlich
+  - Oberfläche mit Kartenansicht und Reiternavigation
 
 ---
 
