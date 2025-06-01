@@ -1,19 +1,6 @@
-# """
+# BKWSimX – Simulation von PV-Systemen
 # logic.calculation
-# ====================
-# Vollständiges, GUI‑unabhängiges Berechnungs‑Modul für BKWSimX.
-
-# Dieses Modul kapselt **sämtliche Photovoltaik‑, Speicher‑ und
-# Wirtschaftlichkeits‑Berechnungen**.  Es besitzt **keine** Abhängigkeit zu
-# Tkinter oder PyQt – damit kann es von jedem Front‑End (CLI, Tests, PyQt‑GUI)
-# aufgerufen werden.
-
-# Version 0.1.0 – 22‑Mai‑2025
-# ------------------------
-# * Reihenfolge der Dataclass‑Felder korrigiert (keine `TypeError` mehr).
-# * Kleine Refactorings & Docstrings.
-# * HEADERS Konstante wieder entfernt (nicht benötigt).
-# """
+# Kernfunktion für die Simulation von PV-Systemen.
 from __future__ import annotations
 
 import calendar
