@@ -1,1 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
 
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Editor-/IDE-spezifisch
+.vscode/
+.idea/
+
+# Virtuelle Umgebungen
+.venv/
+env/
+venv/
+.env/
+
+# Logdateien
+*.log
+
+# Betriebssystem-Spezifisch
+.DS_Store
+Thumbs.db
+
+# Eigene zusätzliche Ausschlüsse
+Output/
+Export/
+4me_readme.md
