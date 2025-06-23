@@ -1,0 +1,78 @@
+{
+    "latitude": 50.8324,
+    "longitude": 12.9189,
+    "manufacturer": "APSystems",
+    "system_name": "APSystems",
+    "years": [
+        2020,
+        2023
+    ],
+    "timestep_min": 15,
+    "inverter_model": "EZ1-M 800W",
+    "battery_model": "—",
+    "batt_units": 0,
+    "soc_min_pct": 10,
+    "soc_max_pct": 100,
+    "cost_module_eur": 60.0,
+    "cost_inverter_eur": 300.0,
+    "cost_install_eur": 100.0,
+    "cost_battery_eur": 599.0,
+    "subsidy_eur": 0.0,
+    "price_eur_per_kwh": 0.32,
+    "price_escalation_pct": 1.5,
+    "operating_years": 15,
+    "co2_factor": 0.28,
+    "losses_pct": {
+        "Leitungsverluste": 1.5,
+        "Verschmutzung": 2.0,
+        "Modul‑Mismatch": 2.0,
+        "LID": 1.0,
+        "Nameplate‑Toleranz": 1.5,
+        "Alterung": 2.0
+    },
+    "shading_mode": "einfach",
+    "shading_simple_level": "keine",
+    "shading_monthly_pct": {
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 0.0,
+        "10": 0.0,
+        "11": 0.0,
+        "12": 0.0
+    },
+    "annual_load_kwh": 3200,
+    "profile": "worker",
+    "optimize_storage": false,
+    "mppts": [
+        {
+            "mppt_index": 1,
+            "n_modules": 1,
+            "connection": "direct",
+            "wp_module": 430,
+            "tilt_deg": 70,
+            "azimuth_deg": 270,
+            "shading_mode": "einfach",
+            "shading_simple_lvl": "keine",
+            "shading_monthly_pct": {
+                "1": 0,
+                "2": 0,
+                "3": 0,
+                "4": 0,
+                "5": 0,
+                "6": 0,
+                "7": 0,
+                "8": 0,
+                "9": 0,
+                "10": 0,
+                "11": 0,
+                "12": 0
+            }
+        }
+    ]
+}
