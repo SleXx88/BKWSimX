@@ -1,21 +1,74 @@
-MIT License
+# **BKWSimX – Lizenzinformationen**
+
+© 2025 Martin Teske
+Website: [https://www.martinteske-blog.de](https://www.martinteske-blog.de)
+
+BKWSimX ist eine Open-Source-Software zur Planung und Wirtschaftlichkeitsanalyse von Balkonkraftwerken. Die Software steht unter der MIT-Lizenz. Für bestimmte Datenquellen gelten zusätzliche Lizenzbestimmungen, die nachfolgend aufgeführt sind.
+
+
+## **MIT-Lizenz**
 
 Copyright (c) 2025 Martin Teske
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Hiermit wird unentgeltlich jeder Person, die eine Kopie dieser Software und der zugehörigen Dokumentationsdateien (die "Software") erhält, die Erlaubnis erteilt, uneingeschränkt mit der Software zu handeln, einschließlich und ohne Einschränkung der Rechte, die Software zu nutzen, zu kopieren, zu modifizieren, zusammenzuführen, zu veröffentlichen, zu verbreiten, zu unterlizenzieren und/oder zu verkaufen, und Personen, denen diese Software zur Verfügung gestellt wird, diese Rechte zu verschaffen, unter den folgenden Bedingungen:
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Der obige Urheberrechtshinweis und dieser Genehmigungshinweis müssen in allen Kopien oder wesentlichen Teilen der Software enthalten sein.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+DIE SOFTWARE WIRD OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG BEREITGESTELLT, EINSCHLIESSLICH DER GEWÄHRLEISTUNG DER MARKTGÄNGIGKEIT, DER EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND DER NICHTVERLETZUNG. IN KEINEM FALL SIND DIE AUTOREN ODER URHEBERRECHTSINHABER FÜR ANSPRÜCHE, SCHÄDEN ODER SONSTIGE HAFTUNGEN VERANTWORTLICH, OB IN EINEM VERTRAGSVERHÄLTNIS, EINER UNERLAUBTEN HANDLUNG ODER ANDERWEITIG, DIE AUS DER SOFTWARE ODER DER VERWENDUNG ODER ANDEREN GESCHÄFTEN MIT DER SOFTWARE ENTSTEHEN.
+
+## **Verwendete Drittanbieter-Komponenten**
+
+BKWSimX nutzt folgende Open-Source-Komponenten:
+
+* **Python 3** – PSF License
+* **PyQt6** – GPL v3 oder kommerzielle Lizenz (Riverbank Computing)
+* **QtWebEngine / QtWebChannel** – GPL v3
+* **pvlib** – BSD 3-Clause License
+* **pandas** – BSD 3-Clause License
+* **NumPy** – BSD 3-Clause License
+* **matplotlib** – PSF/BSD-kompatibel
+* **mplcursors** – MIT License
+* **screeninfo** – MIT License
+* **requests** – Apache 2.0 License
+
+Die jeweiligen Lizenztexte sind in den entsprechenden Projekten verfügbar.
+
+## **Externe Dienste und Datenquellen**
+
+BKWSimX verwendet Daten und Dienste von Drittanbietern, für die spezifische Lizenzbedingungen gelten:
+
+**PVGIS – Photovoltaic Geographical Information System**
+
+Dieses Programm verwendet PV-Ertragsdaten, die über das Photovoltaic Geographical Information System (PVGIS) der Europäischen Kommission bezogen werden.
+PVGIS ist ein kostenloses Online-Tool, das von der Gemeinsamen Forschungsstelle (Joint Research Centre, JRC) der Europäischen Kommission entwickelt wurde. 
+Es bietet Daten zur Sonneneinstrahlung und zur Leistung von Photovoltaiksystemen für nahezu jeden Standort weltweit.
+Die Nutzung von PVGIS ist frei und ohne Registrierung möglich. Es bestehen keine Einschränkungen hinsichtlich der Verwendung der Ergebnisse.
+Weitere Informationen und Nutzungsbedingungen findest du unter:
+
+🔗 [https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis\_en](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis_en)
+
+**OpenStreetMap – Open Database License (ODbL)**
+
+BKWSimX verwendet Kartendaten von OpenStreetMap, die unter der Open Database License (ODbL) Version 1.0 lizenziert sind. Die ODbL erlaubt die freie Nutzung, Modifikation und Weitergabe der Daten unter der Bedingung, dass:
+
+* die Quelle korrekt angegeben wird (z. B. "© OpenStreetMap-Mitwirkende"),
+* abgeleitete Datenbanken unter derselben Lizenz veröffentlicht werden,
+* bei Weitergabe der Daten oder abgeleiteter Werke ein Link zur Lizenz bereitgestellt wird: [https://opendatacommons.org/licenses/odbl/1.0/](https://opendatacommons.org/licenses/odbl/1.0/)
+
+Weitere Informationen zur ODbL findest du unter:
+
+🔗 [https://www.openstreetmap.org/copyright](https://www.openstreetmap.org/copyright)
+
+## **Haftungsausschluss**
+
+BKWSimX wird ohne jegliche Gewährleistung bereitgestellt. Obwohl alle Berechnungen mit größter Sorgfalt erfolgen, übernimmt der Autor keine Haftung für die Richtigkeit, Vollständigkeit oder Aktualität der Ergebnisse. Die Nutzung erfolgt auf eigene Verantwortung.
+Bitte beachte, dass PVGIS auf theoretischen Modellen basiert und die tatsächliche Leistung von Photovoltaikanlagen von verschiedenen Faktoren beeinflusst werden kann.
+Es wird empfohlen, die Ergebnisse von PVGIS mit lokalen Gegebenheiten und professioneller Beratung abzugleichen.
+
+## **Kontakt**
+
+Bei Fragen oder Anmerkungen wende dich bitte an:
+
+Martin Teske
+E-Mail: [info@martinteske-blog.de](mailto:info@martinteske-blog.de)
+Website: [https://www.martinteske-blog.de](https://www.martinteske-blog.de)

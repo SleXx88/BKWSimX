@@ -1,0 +1,12 @@
+BKWSimX
+
+0.1.0-Beta (25.05.2025):
+- erstes Beta Release
+
+0.1.1 (27.05.2025):
+- Skia-/Shared-Image-Fehler: GPU-Beschleunigung deaktiviert
+
+0.1.2 (16.06.2025):
+- Fensterrahmen überarbeitet: Die Benutzeroberfläche passt sich nun dynamisch an und ist vollständig skalierbar
+- Ergebnis-Tab erweitert: Farblegende für das Ertragsdiagramm ergänzt (PV-Erzeugung, Verbrauch, Einspeisung)
+- Fehlerbehebung der Buttons Standort <-> Koordinaten
