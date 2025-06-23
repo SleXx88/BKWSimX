@@ -15,7 +15,7 @@
 - 🧮 **Amortisationsberechnung**
   - Inkl. Förderungen, Strompreissteigerung, CO₂‑Ersparnis
 - 💻 **Benutzerfreundliche GUI**
-  - Oberfläche mit Kartenansicht und Reiternavigation
+  - Oberfläche mit Kartenansicht und Reiternavigation 
 
 ---
 
