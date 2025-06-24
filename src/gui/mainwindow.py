@@ -67,15 +67,25 @@ def _consecutive_month_ranges(month_list: list[int]) -> list[tuple[int, int]]:
     """
     if not month_list:
         return []
-    month_list = sorted(set(month_list))
-    ranges, start = [], month_list[0]
-    prev = start
-    for m in month_list[1:]:
+
+    months = sorted(set(month_list))
+    ranges: list[tuple[int, int]] = []
+    start = prev = months[0]
+
+    for m in months[1:]:
         if (prev % 12) + 1 != m:           # Lücke
             ranges.append((start, prev))
             start = m
         prev = m
     ranges.append((start, prev))
+
+    # Bei überlappenden Bereichen über den Jahreswechsel zusammenfassen
+    if len(ranges) > 1 and ranges[0][0] == 1 and ranges[-1][1] == 12:
+        wrap_start = ranges[-1][0]
+        wrap_end = ranges[0][1]
+        ranges = ranges[1:-1]
+        ranges.insert(0, (wrap_start, wrap_end))
+
     return ranges
 
 def build_mppt_fields(n: int) -> None:
